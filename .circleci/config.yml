@@ -3,7 +3,7 @@ version: 2.1
 orbs:
   vulnmap: khulnasoft-lab/vulnmap@1
   prodsec: khulnasoft-lab/prodsec-orb@1
-  commitlint: conventional-changelog/commitlint@1.0
+  commitlint: conventional-changelog/commitlint@1.0.0
 
 go_image: &go_image
   resource_class: medium
