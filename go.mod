@@ -1,6 +1,8 @@
 module github.com/khulnasoft-lab/container-cli
 
-go 1.21.6
+go 1.22.0
+
+toolchain go1.23.2
 
 require (
 	github.com/docker/distribution v2.8.3+incompatible
@@ -10,7 +12,7 @@ require (
 	github.com/rs/zerolog v1.31.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
-	golang.org/x/exp v0.0.0-20240119083558-1b970713d09a
+	golang.org/x/exp v0.0.0-20241009180824-f66d83c29e7c
 )
 
 require (
